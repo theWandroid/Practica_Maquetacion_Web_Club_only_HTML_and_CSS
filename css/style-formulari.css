@@ -1,0 +1,253 @@
+*{box-sizing: border-box;
+    font-family: sans-serif;}
+
+    strong{font-weight: bold;}
+
+    em{font-style: italic;}
+
+header{
+    position: relative;
+    border-bottom: #0a0a7b 6px solid;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 60px 0;}
+
+    header a{
+        text-decoration: none;
+        font-family: sans-serif;}
+
+header ul{
+    text-align: right;}
+
+header ul li{
+    display: inline-block;
+    padding: 20px;
+    text-transform: uppercase;}
+
+header ul li:nth-child(3){
+    padding-right: 80px;}
+
+    
+header a:hover{
+    font-weight: 700;
+    color: #00eeff;
+    padding-bottom: 20px;
+    text-decoration: underline #00eeff;
+}
+
+
+
+/* ///////////////   MAIN //////////////////////////////// */
+ main{
+    background:  #e5dcc8;}
+    
+main h1, main h2{
+    color: #0a0a7b;}
+
+main h1{
+    font-weight: bold;
+    font-size: 1.5rem;
+padding-bottom: 30px;}
+
+main h2{
+    font-size: 1.1rem;
+    padding-top: 20px;
+    padding-bottom:10px;}
+
+    main p, main ul{
+        font-size: 0.9rem;}   
+
+.main-index {
+    padding: 100px 40px;
+}
+
+.main-index .content{
+   width: 1000px;
+margin: 0 auto;
+margin-bottom: 30px;
+padding-left: 30px;}
+
+.main-index div.img{
+    width: 300px;
+    display: inline-block;
+    width: 30%;}
+
+.main-index div img{
+        width:100%;}
+
+.main-index h2{
+    padding-bottom: 20px;
+}        
+      
+.main-index div.img img:nth-child(1){
+     padding-bottom: 10px; }
+        
+
+.main-index div.texto{
+    display: inline-block;
+    width: 60%;
+padding-left: 30px;
+vertical-align: top;
+text-align: justify;
+line-height: 15px;}
+
+.main-index div.texto p{
+    padding-bottom: 10px;
+}
+
+.main-index ul{
+    list-style-type: disc;
+    padding-left: 40px; 
+    line-height: 15px;}
+
+/* ///////////////////// FOOTER ////////////////////////////////////////////// */
+
+
+footer{
+    color: #fff;
+    background: #005e66;
+    padding: 25px 80px;}
+
+footer p{
+    display: inline-block;
+width: 48%;}
+
+footer a{
+    text-decoration: none;
+    color: #fff;}
+
+footer .izquierda{
+    text-align: left;}   
+
+footer .derecha{text-align: right;}
+
+    /* //////////////////////////// MAIN TALLES.HTML /////////////////////  */
+
+main.talles{padding-bottom: 120px;}
+
+
+table, td, tr, th{
+    padding: 5px 10px;
+    text-align: center;}
+
+td{
+    border: 0.4px solid lightgrey;}
+
+th{
+    border: 1px solid black;}
+
+
+table {
+    border: 2px solid black;
+    margin:40px auto;
+   
+}
+
+.underline{
+    border-bottom: 2px solid black;}
+
+.titol{
+    background: darkblue;
+    color: #fff;}
+
+table, main.talles p, main.talles h1{
+    width: 920px;}
+
+ main.talles h1{
+     font-size: 1.8rem;
+     padding-top: 50px; 
+     margin: 0 auto;}
+
+main.talles p{
+    font-size: 1rem;
+    margin: 0 auto;
+    line-height: 1.4rem;
+    font-weight: 500;}
+
+th{
+    background:#dedede ;
+    font-weight: bold;}
+
+td{
+    background:#ffffff ;}
+
+.centrado{
+    vertical-align: middle;}
+
+    /* /////////////////// MAIN INSCRIPCION ////////////////////// */
+    
+
+        fieldset::first-letter,  form fieldset label::first-letter {
+            text-transform: uppercase;
+        }
+
+
+ fieldset, input, select {
+     background: #fff;
+    border: 2px solid #0a0a7b;}   
+
+fieldset legend{
+    background-color: #0a0a7b;
+    color:#fff;}    
+
+input, textarea, select{
+    border-radius: 5px;}
+
+    label{
+        color:#226b80;}
+
+a{
+    background-color: #fff;
+}
+
+
+fieldset{
+    width:550px;
+    margin:10px auto;
+    padding: 20px;
+    padding-left: 50px;
+    position:relative; }
+  
+fieldset legend{
+display: block;
+font-size: 20px;
+font-weight:700;
+padding:20px 40px;
+border-radius: 10px;}
+
+label, input{
+display: block;}
+
+label{
+padding-bottom:5px;}
+
+input, select{
+margin-bottom: 5px;
+margin-bottom: 20px;
+padding: 6px 4px;}
+
+input.nombre{
+width:60%;}
+
+input.mail, .destino{
+width:45%;}
+
+input.poblacion, select{
+width:40%;}
+
+textarea{
+width:300px;
+height: 100px;
+min-width: 200px;
+max-width: 250px;
+min-height: 100px;
+max-height: 200px;}
+
+.boton{width: 100px;
+    text-transform: uppercase;
+   text-align:center;
+    padding: 10px;
+    margin: 20px  auto 10px auto;
+    font-size:20px;
+    box-sizing: border-box; }
